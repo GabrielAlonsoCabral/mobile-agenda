@@ -1,0 +1,35 @@
+import Colors from './Colors';
+
+export default {
+  dark: {
+    text: Colors.white,
+    label: Colors.gray,
+    bg: Colors.black,
+    // logo: 'https://i.ibb.co/zrLLGRT/icon-purple.png',
+    logo: 'https://i.ibb.co/ZSY5MWm/logo-gray-removebg-preview.png',
+    activeOutline: Colors.red,
+    outlined: Colors.white,
+    ctaButton: Colors.red,
+    buttonLabel: Colors.white,
+    shadow: Colors.gray,
+    divider: Colors.white,
+    ctaText: Colors.purple,
+    icon: Colors.white,
+    underlay: Colors.red,
+  },
+  light: {
+    text: Colors.black,
+    label: Colors.gray,
+    bg: Colors.white,
+    logo: 'https://i.ibb.co/G05znry/icon.png',
+    activeOutline: Colors.black,
+    outlined: Colors.gray,
+    ctaButton: Colors.red,
+    buttonLabel: Colors.white,
+    shadow: Colors.gray,
+    divider: Colors.gray,
+    ctaText: Colors.purple,
+    icon: Colors.black,
+    underlay: Colors.red,
+  },
+};
