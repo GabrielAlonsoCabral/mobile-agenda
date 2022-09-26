@@ -9,8 +9,13 @@ import {
   Inter_900Black,
 } from '@expo-google-fonts/inter';
 import './styles';
+import {useColorScheme} from 'nativewind';
 
 function App() {
+  const {colorScheme, setColorScheme} = useColorScheme();
+  if (colorScheme !== 'dark' && colorScheme !== 'light') {
+    setColorScheme('dark');
+  }
   const fonts = useFonts({
     Inter_400Regular,
     Inter_600SemiBold,

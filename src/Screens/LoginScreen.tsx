@@ -126,7 +126,8 @@ export function LoginScreen({navigation}: ILoginScreenProps) {
           </View>
 
           <TouchableRipple
-            className="self-center rounded-lg mt-10 px-2"
+            style={{top: '5%'}}
+            className="align-bottom"
             onPress={() => ''}>
             <Text
               style={{
