@@ -1,3 +1,3 @@
 # mobile-agenda
 
-## UNDER DEVELOPMENT
+## BUILDING MODE
